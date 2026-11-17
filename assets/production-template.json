@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "topic": "",
+  "language": "zh-CN",
+  "style": "sticker-collage-presenter",
+  "duration_s": null,
+  "canvas": {"width": 1080, "height": 1920, "fps": 30},
+  "script": "",
+  "assets": {"take": "assets/take.mp4", "portrait": null, "items": {}, "music": null},
+  "narration": {"mode": "native", "audio": "build/voice.wav", "words": "assets/words.json", "voice_id": null},
+  "scenes": [
+    {"id": "opening", "start_s": null, "end_s": null, "summary": "", "anchors": []},
+    {"id": "poster", "start_s": null, "end_s": null, "summary": "", "anchors": []},
+    {"id": "demo", "start_s": null, "end_s": null, "summary": "", "anchors": []},
+    {"id": "cta", "start_s": null, "end_s": null, "summary": "", "anchors": []}
+  ],
+  "audio": {"picture_audio": false, "voice_tracks": ["build/voice.wav"], "voice_lufs": -15, "music_lufs": -21, "mix_lufs": -14.4, "true_peak_db": -1, "fadeout_s": 1.2},
+  "deliver": {"video": "out/final.mp4", "contact_sheet": "out/contact-sheet.jpg", "qa": "out/qa.json"}
+}

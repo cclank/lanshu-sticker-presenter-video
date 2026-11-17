@@ -1,0 +1,9 @@
+{
+  "example": "desk-styling-sticker-presenter",
+  "output": {"width": 1080, "height": 1920, "fps": 30, "frames": 811},
+  "presenter_take": {"width": 480, "height": 854, "fps": 24, "duration_s": 27.072, "closeup_start_s": 23.1666666667},
+  "required_media": ["assets/take.mp4", "assets/presenter.png", "assets/items_sheet.png"],
+  "example_transcript": "assets/words.json",
+  "media_and_fonts_bundled": false,
+  "usage": "Provide your own authorized media and fonts; adapt text, assets, timing, source frame rate and layouts before rendering. See references/reference-project.md."
+}

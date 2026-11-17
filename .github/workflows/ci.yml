@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install media tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Run workflow and media tests
+        run: python -m unittest discover -s tests -v
+      - name: Compile Python and check shell syntax
+        run: |
+          python -m compileall -q scripts assets/reference-project/scripts
+          bash -n assets/reference-project/scripts/render_all.sh
+      - name: Validate example plan
+        run: python scripts/check_project.py examples/desk-styling.production.json

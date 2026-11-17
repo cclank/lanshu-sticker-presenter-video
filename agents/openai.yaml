@@ -1,0 +1,4 @@
+interface:
+  display_name: "岚叔 · 贴纸拼贴人物口播"
+  short_description: "按主题制作贴纸人物口播短片，融合拼贴海报、手写动效与模拟操作界面"
+  default_prompt: "用 $lanshu-sticker-presenter-video，围绕我给的主题制作贴纸拼贴风格的人物口播视频。"

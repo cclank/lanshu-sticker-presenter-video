@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "output": {"width": 1080, "height": 1920, "fps": 30, "crf": 16},
+  "tracks": [
+    {"clips": [{"id": "picture", "src": "build/picture.mp4", "in": 0, "out": 27.0333, "audio": false}]}
+  ],
+  "audio": [
+    {"id": "voice", "src": "build/voice.wav", "role": "voice", "at": 0},
+    {"id": "bed", "src": "build/music.wav", "role": "music", "at": 0}
+  ],
+  "mix": {"lufs": -14.4, "true_peak": -1.0, "duck_db": 0}
+}
