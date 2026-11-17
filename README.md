@@ -7,7 +7,7 @@
 A reusable agent skill for sticker-collage presenter videos — from script to a checked final cut.
 
 [![CI](https://github.com/cclank/lanshu-sticker-presenter-video/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/cclank/lanshu-sticker-presenter-video/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/cclank/lanshu-sticker-presenter-video?color=467452)](https://github.com/cclank/lanshu-sticker-presenter-video/releases)
+[![Release](https://img.shields.io/github/v/release/cclank/lanshu-sticker-presenter-video?color=467452&sort=semver)](https://github.com/cclank/lanshu-sticker-presenter-video/releases)
 [![MIT License](https://img.shields.io/badge/License-MIT-f5d96b.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/cclank/lanshu-sticker-presenter-video?style=flat&color=f5d96b)](https://github.com/cclank/lanshu-sticker-presenter-video/stargazers)
 [![Forks](https://img.shields.io/github/forks/cclank/lanshu-sticker-presenter-video?color=a8c7ff)](https://github.com/cclank/lanshu-sticker-presenter-video/forks)
